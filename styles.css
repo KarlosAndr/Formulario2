@@ -1,5 +1,5 @@
 body{
-    background-color: #222;
+    background-color: #2e0d0d;
     margin-top: 50px;
     font-family: times new roman;
     box-sizing: border-box;
@@ -48,18 +48,22 @@ select{
     background-color: rgb(179, 179, 179);
 }
 .Enviar {
-    color: black;
-    background-color: white;
+    display: flex;
+    color: white;
+    background-color: rgb(0, 0, 0);
     margin-left: 5px;
     margin-bottom: 20px;
-    border-radius: 0;
+    border-radius: 20px;
     border: 1px solid black;
-    transition: border-radius .5s;
-
+    transition: border-radius .5s,background-color 1s;
+    max-width: 200px;
+    display: inline-flex;
+    
 }
 .Enviar:hover{
-    color: white;
-    background-color: black;
+    
+    color: black;
+    background-color: white;
     border-radius: 20px;
 
 }
