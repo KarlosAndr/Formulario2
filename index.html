@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJEMPLOS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="../Images/icono.ico" type="image/icon">
+</head>
+<body>
+    <div class="video">
+        <video class="videito" src="../Videos/video-wai.mp4" autoplay mute loop></video>
+    </div>
+    <form class="formulario" >
+        <!--INPUTS SIMPLES -->
+        <center>
+        <h1 class="titulo">FORMULARIO DE VIDA O MUERTE</h1>
+        </center>
+        <fieldset>
+            <legend>DATOS ABURRIDOS</legend>
+            <div>
+                <label >Tu Identidad Secreta
+                    <input minlength="3"  type="text" placeholder="Lo sospeché -_- " > 
+                    <br>
+                </label>
+                <label > </label>
+                <label >Correo Electrónico
+                    <input  type="email" placeholder="InventateUnMail@gmail.com">
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <!--SELECT & OPTIONS -->
+            <legend>SECRETOS OSCUROS
+            </legend>
+                <div>
+                    <label >Contraseña de tu Celular
+                        <input  type="password" placeholder="NoEs123456?">
+                    </label>
+                    <br>
+                    <label>Tipo de Usuario
+                        <select name="Tipo-Usuario" >
+                            <option value="Empresa">Humano</option>
+                            <option value="Natural">Dios/a</option>
+                            <option value="Independiente">Alienígena</option>
+                        </select>
+                    </label>
+                </div>
+        </fieldset>
+        <label class="como">Cómo llegaste aquí
+            <input list="manera" name="way">
+            <datalist id="manera">
+                <option value="Teletransportación">Llegué aquí por arte de magia</option>
+                <option value="Sueños">Me lo susurró un unicornio</option>
+                <option value="Perdiéndome en Internet">Encontré esto mientras buscaba memes</option>
+                <option value="A través del espejo">Viajé al pasado y me enteré</option>
+                <option value="Fortuna de una galleta">Lo leí en una galleta de la fortuna</option>
+
+            </datalist>
+        </label>
+        <br>
+        <label  for="terminos"> <a id="terminos" target="_blank">Acepto que nadie lee estos Términos y Condiciones
+        </a> 
+            <input type="checkbox" id="terminos">
+        </label>
+        <br>
+        <a  href="https://www.youtube.com/watch?v=Y1n6yiOovBo" class="Enviar" target="_blank">Haz clic si te atreves</a>
+        <a  href="https://www.youtube.com/shorts/mNrv1nJOvbY" class="Enviar" target="_blank">Solo para los valientes</a>
+        <a  href="https://www.youtube.com/watch?v=vOqai4JostA" class="Enviar" target="_blank">Dale al clic y no mires atrás</a>
+
+        
+    </form>
+</body>
+</html>

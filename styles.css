@@ -1,0 +1,94 @@
+body{
+    background-color: #222;
+    margin-top: 50px;
+    font-family: times new roman;
+    box-sizing: border-box;
+}
+
+
+.formulario{
+    line-height: 35px;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    border-radius: 10px  ;
+    
+    background-color: #9291939f;
+}
+fieldset{
+    border-radius: 10px;
+    margin: 0 10px;
+    border:1px solid ;
+    box-shadow: 0 2px 3px 3px black;
+    
+    
+}
+legend{
+    color: rgb(255, 0, 81);
+    font-weight: bold;
+}
+.titulo{
+    padding-top: 8px ;
+    color: rgb(255, 0, 81);
+    text-shadow: 0 -5px 3px 3px rgb(7, 6, 6) ;
+    letter-spacing: 10px;    
+    text-decoration: underline;
+    word-spacing: 2px;
+}
+
+
+input{
+    border-radius: 5px;
+    background-color: rgb(208, 205, 205);
+    color:black ;
+    
+}
+
+select{
+    background-color: rgb(179, 179, 179);
+}
+.Enviar {
+    color: black;
+    background-color: white;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    border-radius: 0;
+    border: 1px solid black;
+    transition: border-radius .5s;
+
+}
+.Enviar:hover{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #0000ffbb;
+}
+
+
+video{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.videito{
+    object-fit: fill;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+}
+
+#terminos{
+    color: #000000;
+    padding-left: 10px;
+}
+
+.como{
+    padding-left: 10px;
+}
