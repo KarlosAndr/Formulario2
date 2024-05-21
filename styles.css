@@ -5,6 +5,10 @@ body{
     box-sizing: border-box;
 }
 
+body:hover .titulo{
+    transition: color .5s;
+    color: rgb(255, 0, 81);
+}
 
 .formulario{
     line-height: 35px;
@@ -29,7 +33,7 @@ legend{
 }
 .titulo{
     padding-top: 8px ;
-    color: rgb(255, 0, 81);
+    color: white;
     text-shadow: 0 -5px 3px 3px rgb(7, 6, 6) ;
     letter-spacing: 10px;    
     text-decoration: underline;
